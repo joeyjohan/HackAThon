@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HackAThon</title>
+<style>
+body {
+  background-color: white;
+  text-align: center;
+  color: #112222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textbox {
+	background-color: #112222;
+    border: white;
+    color: white;
+    padding: 50px;
+    border-radius: 20%;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button {
+	background-color: none;
+    border: white;
+    color: white;
+    padding: 15px;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+      }
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+.waitingForConnection {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.5, 0.5, 0.3, 0.3);
+  animation-duration: 1.0s;
+}
+body {
+background-image: url("https://d11wkw82a69pyn.cloudfront.net/siteassets/images/blockchain_school_canvas_low.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.container {
+    column-width: 33.3%;
+    column-rule: 1px solid rgb(75, 70, 74);
+}
+h3 {
+    position: fixed;
+      top: 300px;
+      left: 105px;
+}
+h1 {
+    color:#112222;
+}
+.movetextleft {
+  position:fixed;
+  top:200px;
+  left: 75px;
+}
+</style>
+</head>
+<body>
+<br><br><br><br>
+<div class ="waitingForConnection">
+	<h1>HackAThon</h1>
+</div>
+<br><br><br>
+<div class = "movetextleft">
+  <p>Blockchain is a system that exists for security purposes.<br> It is a ledger that is unable to be changed<br> which records transactions and tracks assets.<br> It only allows permissioned network members<br> to access and see the full transaction history.<br> No one can change the ledger and if <br>there is an error then a new transaction<br> needs to be made which is then stored<br> along with the first transaction. So what actually<br> happens when a transaction is completed? <br>It is recorded as a ‘block’ of data<br> that contains everything from the transaction.<br> Each block is then attached to other blocks. <br>They form a chain and the longer it gets the <br>more immutable it becomes which removes the possibility<br> of hacking and changing the transaction history.
+  </p>
+</div>  
+</body>
+</html>

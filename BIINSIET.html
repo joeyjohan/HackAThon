@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HackAThon</title>
+<style>
+body {
+  background-color: white;
+  text-align: center;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textbox {
+	background-color: #112222;
+    border: white;
+    color: white;
+    padding: 50px;
+    border-radius: 20%;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button {
+	background-color: none;
+    border: white;
+    color: white;
+    padding: 15px;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+      }
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+.waitingForConnection {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.5, 0.5, 0.3, 0.3);
+  animation-duration: 1.0s;
+}
+body {
+background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/411/135/large/christopher-mckiernan-hallway-two-doors-on-the-left-and-right-4-doors-fx.jpg?1585705357&dl=1");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.container {
+    column-width: 33.3%;
+    column-rule: 1px solid rgb(75, 70, 74);
+}
+/*The first part is
+    speed(0)
+    penup()
+    setposition(-150,0)
+    pensize(7)
+    left(180)
+    pendown()
+    circle(30,180)
+    penup()
+    forward(50)
+    left(90)
+    pendown() */
+h3 {
+    position: fixed;
+      top: 300px;
+      left: 105px;
+}
+h1 {
+    color:#112222;
+}
+</style>
+</head>
+<body>
+<br><br><br><br>
+<div class ="waitingForConnection">
+	<h1>HackAThon</h1>
+</div>
+<p>second part is:
+    forward(60)
+    penup()
+    backward(40)
+    pendown()
+    right(90)
+    forward(20)
+    right(90)
+    forward(20)
+    penup()
+    left(90)
+    forward(70)
+    pendown()
+    backward(20)
+    left(90)
+    forward(30)
+    right(90)
+    forward(20)
+    right(90)
+    forward(15)
+    right(90)
+    forward(20)
+    penup()
+    right(180)
+    forward(70)
+    right(90)
+    forward(15)
+    right(180)
+    pendown()
+    forward(60)
+    right(90)
+    forward(15)
+    right(90)
+    forward(15)
+    right(180)
+    forward(15)
+    left(90)
+    forward(15)
+    left(90)
+    forward(35)
+    right(90)
+    forward(10)
+    right(180)
+    forward(20)
+    penup()
+    setposition(0,0)
+    </p>
+</body>
+</html>
